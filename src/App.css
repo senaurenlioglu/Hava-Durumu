@@ -1,0 +1,71 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  color: rgb(58, 76, 165);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.search input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+}
+.search button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff22;
+  color: white;
+  cursor: pointer;
+}
+
+.current-weather {
+  margin-top: 30px;
+}
+
+.forecast-section {
+  margin-top: 40px;
+}
+.forecast-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.forecast-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.sunny {
+  background-image: url("https://i.gifer.com/CYW.gif");
+}
+.rainy {
+  background-image: url("https://i.gifer.com/JMHp.gif");
+}
+.cloudy {
+  background-image: url("https://i.gifer.com/8YDk.gif");
+}
+.snowy {
+  background-image: url("https://i.gifer.com/VYsc.gif");
+}
+.windy {
+  background-image: url("https://i.gifer.com/604.gif");
+}
+.default {
+  background: linear-gradient(135deg, #1d425b, #599ab2);
+}
