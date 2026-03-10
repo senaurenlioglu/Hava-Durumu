@@ -21,8 +21,8 @@ This weather application provides real-time meteorological data with a sleek int
 ### Environment Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/senaurenlioglu/Hava-Durumu.git]((https://github.com/senaurenlioglu/Hava-Durumu))
-cd SkySync-Weather
+git clone https://github.com/senaurenlioglu/Hava-Durumu.git
+cd Hava-Durumu
 
 # Install dependencies and launch the development server
 npm install
